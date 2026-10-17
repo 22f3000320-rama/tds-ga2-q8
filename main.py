@@ -8,7 +8,7 @@ from fastapi import FastAPI, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
 from prometheus_client import Counter, generate_latest, CONTENT_TYPE_LATEST
 
-EMAIL = "your_email@example.com"   # <-- CHANGE THIS to your own email
+EMAIL = "22f3000320@ds.study.iitm.ac.in"   # <-- CHANGE THIS to your own email
 
 app = FastAPI()
 START_TIME = time.time()
